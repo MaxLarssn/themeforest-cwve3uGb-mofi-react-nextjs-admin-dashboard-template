@@ -1,0 +1,42 @@
+/*! -----------------------------------------------------------------------------------
+
+    Template Name: Mofi Admin
+    Template URI: http://admin.pixelstrap.com/Mofi/theme
+    Description: This is Admin theme
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+
+-----------------------------------------------------------------------------------
+ */
+
+@import "theme/variables";
+
+:root {
+    --theme-deafult: #7366ff;
+    --theme-secondary: #f73164;
+}
+
+@import "components/buttons.scss";
+@import "components/alert";
+
+@import "components/card.scss";
+@import "components/color.scss";
+@import "components/dropdown.scss";
+@import "components/popover.scss";
+@import "components/tab.scss";
+@import "components/radio";
+@import "components/badge";
+@import "components/switch";
+@import "components/datatable";
+@import "components/form-wizard";
+@import "components/table.scss";
+@import "components/tree";
+@import "components/according";
+
+@import "layout/select2";
+
+@import "pages/chart";
+
+@import "theme/document.scss";
+@import "theme/responsive";
+@import "theme/dark.scss";

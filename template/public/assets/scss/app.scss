@@ -1,0 +1,77 @@
+@import "./style.scss";
+@import "./responsive.scss";
+@import "./vendors/todo.scss";
+
+//bootstrap
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+//simple-bar vertical scrollbar
+@import "simplebar-react/dist/simplebar.min.css";
+
+//font_awesome
+@import "~font-awesome/css/font-awesome.min.css";  
+
+//flag_icons
+@import "./vendors/flag-icon.scss";
+
+//feather_icon
+@import "./vendors/feather-icon.scss";
+
+//ico_font
+@import "./vendors/icofont.scss";
+
+//themify
+@import "./vendors/themify.scss";
+
+//whether_icon
+@import "./vendors/whether-icon.scss";
+
+//react-perfect-scrollbar
+@import "react-perfect-scrollbar/dist/css/styles.css";
+
+//file_upload
+@import 'filepond/dist/filepond.min.css';
+@import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
+
+//react-drop_zone-uploader
+@import 'react-dropzone-uploader/dist/styles.css';
+
+//react-toastify
+@import 'react-toastify/dist/ReactToastify.css';
+
+//react-image-crop
+@import 'react-image-crop/src/ReactCrop.scss';
+
+//react-vertical-timeline-component
+@import 'react-vertical-timeline-component/style.min.css';
+
+//photo_swipe
+@import 'photoswipe/dist/photoswipe.css';
+
+//react-bootstrap-typeahead
+@import 'react-bootstrap-typeahead/css/Typeahead.css';
+
+//react-date_picker
+@import "react-datepicker/dist/react-datepicker.css";
+
+//LeafLet
+@import "~leaflet/dist/leaflet.css";
+
+//react-calendar
+@import 'react-calendar/dist/Calendar.css';
+
+//easy_mde
+@import "easymde/dist/easymde.min.css";
+
+//react-calendar-timeline
+@import 'react-calendar-timeline/lib/Timeline.css';
+
+//slick-carousel
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+//apex_charts
+@import 'apexcharts/dist/apexcharts.css';
+
+// react-responsive-carousel
+@import "react-responsive-carousel/lib/styles/carousel.min.css";

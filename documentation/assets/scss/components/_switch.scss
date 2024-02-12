@@ -1,0 +1,62 @@
+/**=====================
+    18. Switch  CSS Start
+==========================**/
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+
+	input {
+		display: none;
+
+		&:checked+.switch-state {
+			background-color: $primary-color;
+
+			&:before {
+				transform: translateX(26px);
+			}
+		}
+
+		&:focus+.switch-state {
+			box-shadow: 0 0 1px $primary-color;
+		}
+	}
+}
+
+.switch-state {
+	border-radius: 20px;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: $light-color;
+	transition: .4s;
+
+	&:before {
+		position: absolute;
+		content: "";
+		height: 26px;
+		width: 26px;
+		left: 4px;
+		bottom: 4px;
+		background-color: $white;
+		transition: .4s;
+		border-radius: 20px;
+	}
+}
+
+.form-switch {
+	.form-check-input {
+		&:checked {
+			background-color: $primary-color;
+			border-color: $primary-color;
+		}
+	}
+}
+
+/**=====================
+     18. Switch  CSS Ends
+==========================**/

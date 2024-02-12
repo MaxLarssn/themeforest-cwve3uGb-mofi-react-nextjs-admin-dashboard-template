@@ -1,0 +1,11 @@
+====================
+----- 10/2/2024 ---
+====================
+
+Update:-
+1. Mobile Device inner pages design issue solve  
+2. Remove Owl Carousel and implement Reactstrap Carousel
+
+
+
+

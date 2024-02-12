@@ -1,0 +1,472 @@
+/**=====================
+     Dark CSS Start
+==========================**/
+body {
+    &.dark-only {
+        background-color: $dark-body-background;
+        color: $dark-all-font-color;
+
+        .form-control,
+        .form-select {
+            background-color: $dark-body-background;
+            color: $dark-all-font-color;
+            border-color: $dark-card-border;
+        }
+
+        .select2-container--default {
+            .select2-selection--multiple {
+                background-color: $dark-card-background;
+                color: $dark-all-font-color;
+            }
+        }
+
+        .apexcharts-tooltip {
+            &.light {
+                border: 1px solid $dark-card-border;
+                background: $dark-card-background;
+
+                .apexcharts-tooltip-title {
+                    background: $dark-card-background;
+                    border-bottom-color: $dark-card-border;
+                }
+            }
+        }
+
+        .select2-dropdown {
+            background-color: $dark-card-background;
+            border-color: $dark-card-border;
+        }
+
+        span.twitter-typeahead {
+
+            .tt-menu,
+            .tt-suggestion {
+                background-color: $dark-card-background;
+            }
+
+            .tt-suggestion {
+                border-top-color: $dark-card-border;
+                color: $dark-all-font-color;
+            }
+        }
+
+        .checkbox,
+        .radio {
+            label {
+                &::before {
+                    background-color: $dark-card-background;
+                    border-color: $dark-card-border;
+                }
+            }
+        }
+
+        .content {
+            p {
+                color: $dark-all-font-color;
+            }
+        }
+
+        .layout-box {
+            border-color: $dark-card-border;
+        }
+
+        .dark-block {
+            background-color: $dark-card-background;
+        }
+
+        .d-block {
+            color: $dark-all-font-color;
+        }
+
+        .warning-block {
+            color: #c1c1c1 !important;
+        }
+
+        .default-according {
+            .card {
+
+                .card-header,
+                .card-body {
+                    border-color: $dark-card-border;
+                }
+
+                .btn-link {
+                    color: $dark-all-font-color  !important;
+                }
+            }
+        }
+
+        .table-border {
+            border-color: $dark-card-border;
+        }
+
+        .table-border-vertical {
+
+            tr,
+            th,
+            td {
+                border-right-color: $dark-card-border;
+                color: $dark-all-font-color;
+            }
+        }
+
+        .home-section {
+            background-color: $dark-card-background;
+            background-image: unset;
+
+            .form-control {
+                border: 1px solid #374462;
+            }
+
+            .input-group-text {
+                background-color: #374462;
+                border-color: #374462;
+                color: $white;
+            }
+        }
+
+        footer {
+            border-color: #4d4d4f;
+        }
+
+        .left-sidebar {
+            &.right-part {
+                border-color: #4d4d4f;
+            }
+        }
+
+        .nav-link {
+            color: $dark-all-font-color;
+
+            &.active {
+                color: $primary-color;
+            }
+        }
+
+        :not(pre)>code[class*="language-"],
+        pre[class*="language-"] {
+            background: $dark-body-background;
+        }
+
+        code[class*="language-"],
+        pre[class*="language-"] {
+            text-shadow: unset;
+            color: $dark-all-font-color;
+        }
+
+        .code-box-copy__btn {
+            background-color: $dark-card-background;
+            border-color: $dark-card-border;
+            color: $dark-all-font-color;
+        }
+
+        .code-box-copy {
+            pre[class*="language-"] {
+                border: 1px solid $dark-card-border;
+            }
+        }
+
+        .nav-tabs {
+            border-bottom: 1px solid $dark-card-border;
+
+            .nav-link.active,
+            .nav-item.show .nav-link {
+                background-color: $dark-card-background;
+                border-color: $dark-card-border $dark-card-border $dark-card-background;
+            }
+
+            .nav-link {
+                &:hover {
+                    border-color: $dark-card-border $dark-card-border $dark-card-background;
+                }
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $dark-all-font-color;
+        }
+
+        .left-sidebar {
+
+            /* ===== Scrollbar CSS ===== */
+            /* Firefox */
+            * {
+                scrollbar-color: #534b4b #797373;
+            }
+
+            &::-webkit-scrollbar-track {
+                background: #262932;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: #2A3650;
+                border: 0px solid #ffffff;
+            }
+        }
+
+        .parent-title,
+        .main-title {
+            color: $dark-all-font-color;
+        }
+
+        .navbar-toggler {
+            color: $dark-all-font-color;
+        }
+
+        .parent-title {
+            background-color: $dark-card-background;
+        }
+
+        .quick-links {
+            h5 {
+                background-color: $dark-card-background;
+            }
+        }
+
+        article {
+            .main-title {
+                color: $primary-color;
+            }
+        }
+
+        .toggle_btn {
+            background: #323743;
+            color: $dark-all-font-color;
+        }
+
+        .toggle_body {
+            border: 1px solid $dark-card-border;
+            border-top: 0;
+
+            &.card-body {
+                border: none;
+            }
+        }
+
+        .change-log-content {
+            .log-version-info {
+                .log-version {
+                    background: $dark-body-background;
+                }
+
+                .log-line {
+                    background: $dark-card-background;
+                }
+            }
+        }
+
+        .doc_accordion {
+            .card-header {
+                button {
+                    background: #323743;
+                    color: $dark-all-font-color;
+                }
+            }
+        }
+
+        .token.entity,
+        .token.operator,
+        .token.url {
+            background-color: transparent;
+        }
+
+        .framworks-list {
+            .box {
+                background-color: $dark-card-background;
+            }
+        }
+
+        .menu {
+            >.nav-item {
+                >.nav-link {
+                    color: $dark-all-font-color;
+                }
+
+                &.active {
+                    >.nav-link {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+
+        .direct {
+            .nav-link {
+                background-color: $dark-card-background;
+                color: $dark-all-font-color;
+            }
+        }
+
+        .nav-sidebar {
+            >.nav-item {
+                .title {
+                    color: $dark-all-font-color;
+                }
+            }
+        }
+
+        .toggle-code {
+            a:hover {
+                color: #7366ff;
+            }
+        }
+
+        .right-log-content {
+            .log-download-links {
+                border-top: 1px solid $dark-card-border;
+            }
+        }
+
+        .table {
+            border-color: $dark-card-border;
+
+            td,
+            tbody th {
+                color: $dark-all-font-color;
+            }
+
+            > :not(:last-child)> :last-child>* {
+                border-bottom-color: $dark-card-border;
+            }
+        }
+
+        table.dataTable {
+            border-color: $dark-card-border;
+
+            tbody {
+                tr {
+                    background-color: $dark-body-background;
+                }
+            }
+
+            &.row-border,
+            &.display {
+                tbody {
+
+                    th,
+                    td {
+                        border-top: 1px solid $dark-card-border;
+                    }
+                }
+            }
+
+            &.stripe,
+            &.display {
+                tbody {
+                    tr.odd {
+                        background-color: $dark-card-background;
+                    }
+                }
+            }
+
+            &.display {
+                tbody {
+                    tr {
+                        &:hover {
+                            background-color: $dark-card-background;
+                        }
+                    }
+                }
+            }
+        }
+
+        .dataTables_wrapper {
+            label {
+                color: $dark-all-font-color;
+            }
+
+            table.dataTable {
+                thead {
+
+                    th,
+                    td {
+                        border-bottom: 2px solid $dark-card-border;
+                    }
+                }
+            }
+
+            .dataTables_paginate {
+                border-color: $dark-card-border;
+            }
+
+            .dataTables_filter {
+                input[type="search"] {
+                    background-color: $dark-card-background;
+                    border-color: $dark-card-border;
+                    color: $dark-all-font-color;
+                }
+            }
+        }
+
+        .card {
+            background-color: $dark-card-background;
+
+            .card-header {
+                background-color: $dark-card-background;
+                border-bottom: 1px solid $dark-card-border;
+            }
+        }
+
+        .main-table-sec {
+            .table-wrapper {
+                .table-scroll {
+                    table {
+                        tr {
+                            &:first-child {
+                                border-bottom: 1px solid $dark-card-border;
+
+                                span {
+                                    color: $dark-all-font-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .page-footer {
+            .page-changes-summary {
+                border-top: 1px solid $dark-card-border;
+            }
+        }
+
+        @media (max-width: 991px) {
+
+            .menu,
+            .navbar_fixed.menu_one {
+
+                .nav-item,
+                .menu .nav-item {
+                    border-bottom: 1px solid $dark-card-border;
+                }
+            }
+
+            .navbar {
+                .nav-right {
+                    .toggle-sidebar {
+                        color: $dark-all-font-color;
+                    }
+                }
+            }
+
+            .navbar-collapse {
+                background-color: $dark-card-background;
+            }
+
+            .left-sidebar {
+                background: $dark-body-background;
+                box-shadow: 0 0 2px $dark-card-border;
+            }
+        }
+    }
+}
+
+/**=====================
+     Dark CSS End
+==========================**/
